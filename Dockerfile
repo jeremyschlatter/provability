@@ -7,8 +7,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install Flask
 
-ENTRYPOINT ["python", "/src/modal-combat/modalcombat.py"]
+CMD ["python", "/src/modal-combat/modalcombat.py"]
 
-EXPOSE 8060
+EXPOSE 5000
 
 ADD . /src/modal-combat
