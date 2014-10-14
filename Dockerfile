@@ -11,4 +11,4 @@ CMD ["python", "/src/modal-combat/modalcombat.py"]
 
 EXPOSE 5000
 
-ADD . /src/modal-combat
+COPY . /src/modal-combat
